@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/pasosdeJesus/cor1440_gen.git
-  revision: 8053bad41c9f0b7bb748f9ebfb9cff552c269e1c
+  revision: f29f60ebbc946d6528cdcf0c9aba0e6a6bc2e3c4
   specs:
-    cor1440_gen (1.0.a6)
+    cor1440_gen (1.0.b1)
       devise
       jquery-rails
       paperclip
@@ -10,16 +10,15 @@ GIT
 
 GIT
   remote: git://github.com/pasosdeJesus/sip.git
-  revision: 4c8f104f9ca428c897b61f0ee216efd7b238cf27
+  revision: 62d2178c5692c9572da9c2771896a47a85b8d018
   specs:
-    sip (2.0.a7)
+    sip (2.0.b1)
       bootstrap-datepicker-rails
       cancancan
       colorize
       devise
       devise-i18n
       jquery-rails
-      jquery-ui-bootstrap-rails
       jquery-ui-rails
       paperclip
       rails
@@ -31,18 +30,18 @@ GIT
 
 GIT
   remote: git://github.com/pasosdeJesus/sivel2_gen.git
-  revision: bab0e85cc4bcf4688837794093a15c8256249f1d
+  revision: 299d058636c637838e39c3500e1d3a8b9dba09e6
   specs:
-    sivel2_gen (2.0.a9)
+    sivel2_gen (2.0b1)
       devise
       jquery-rails
       rails
 
 GIT
   remote: git://github.com/pasosdeJesus/sivel2_sjr.git
-  revision: 4a52deecefcc74b47b78f35868d5098827d180b3
+  revision: 26c171ad11d444dba2fd16686d8c12c27ed1006e
   specs:
-    sivel2_sjr (2.0.a8)
+    sivel2_sjr (2.0.b1)
       rails
       sivel2_gen
 
@@ -62,36 +61,36 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    actionmailer (4.2.6)
-      actionpack (= 4.2.6)
-      actionview (= 4.2.6)
-      activejob (= 4.2.6)
+    actionmailer (4.2.7)
+      actionpack (= 4.2.7)
+      actionview (= 4.2.7)
+      activejob (= 4.2.7)
       mail (~> 2.5, >= 2.5.4)
       rails-dom-testing (~> 1.0, >= 1.0.5)
-    actionpack (4.2.6)
-      actionview (= 4.2.6)
-      activesupport (= 4.2.6)
+    actionpack (4.2.7)
+      actionview (= 4.2.7)
+      activesupport (= 4.2.7)
       rack (~> 1.6)
       rack-test (~> 0.6.2)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
-    actionview (4.2.6)
-      activesupport (= 4.2.6)
+    actionview (4.2.7)
+      activesupport (= 4.2.7)
       builder (~> 3.1)
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
-    activejob (4.2.6)
-      activesupport (= 4.2.6)
+    activejob (4.2.7)
+      activesupport (= 4.2.7)
       globalid (>= 0.3.0)
-    activemodel (4.2.6)
-      activesupport (= 4.2.6)
+    activemodel (4.2.7)
+      activesupport (= 4.2.7)
       builder (~> 3.1)
-    activerecord (4.2.6)
-      activemodel (= 4.2.6)
-      activesupport (= 4.2.6)
+    activerecord (4.2.7)
+      activemodel (= 4.2.7)
+      activesupport (= 4.2.7)
       arel (~> 6.0)
-    activesupport (4.2.6)
+    activesupport (4.2.7)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -164,7 +163,7 @@ GEM
       activesupport (>= 4.1.0)
     i18n (0.7.0)
     interception (0.5)
-    jbuilder (2.5.0)
+    jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
     jquery-rails (4.1.1)
@@ -215,7 +214,7 @@ GEM
     prawnto_2 (0.2.6)
       prawn (>= 0.6.0)
       rails (>= 3.1)
-    pry (0.10.3)
+    pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
@@ -228,16 +227,16 @@ GEM
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
-    rails (4.2.6)
-      actionmailer (= 4.2.6)
-      actionpack (= 4.2.6)
-      actionview (= 4.2.6)
-      activejob (= 4.2.6)
-      activemodel (= 4.2.6)
-      activerecord (= 4.2.6)
-      activesupport (= 4.2.6)
+    rails (4.2.7)
+      actionmailer (= 4.2.7)
+      actionpack (= 4.2.7)
+      actionview (= 4.2.7)
+      activejob (= 4.2.7)
+      activemodel (= 4.2.7)
+      activerecord (= 4.2.7)
+      activesupport (= 4.2.7)
       bundler (>= 1.3.0, < 2.0)
-      railties (= 4.2.6)
+      railties (= 4.2.7)
       sprockets-rails
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
@@ -255,9 +254,9 @@ GEM
       rails_stdout_logging
     rails_serve_static_assets (0.0.5)
     rails_stdout_logging (0.0.5)
-    railties (4.2.6)
-      actionpack (= 4.2.6)
-      activesupport (= 4.2.6)
+    railties (4.2.7)
+      actionpack (= 4.2.7)
+      activesupport (= 4.2.7)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     raindrops (0.16.0)
@@ -266,7 +265,7 @@ GEM
       json (~> 1.4)
     responders (2.2.0)
       railties (>= 4.2.0, < 5.1)
-    rspec-core (3.5.0)
+    rspec-core (3.5.1)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -274,7 +273,7 @@ GEM
     rspec-mocks (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
-    rspec-rails (3.5.0)
+    rspec-rails (3.5.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       railties (>= 3.0)
@@ -284,7 +283,7 @@ GEM
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
     sass (3.4.22)
-    sass-rails (5.0.5)
+    sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
       sass (~> 3.1)
       sprockets (>= 2.8, < 4.0)
@@ -306,7 +305,7 @@ GEM
     spring (1.7.2)
     spring-commands-rspec (1.0.4)
       spring (>= 0.9.1)
-    sprockets (3.6.3)
+    sprockets (3.7.0)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.1.1)
@@ -317,18 +316,16 @@ GEM
     thread_safe (0.3.5)
     tilt (2.0.5)
     ttfunk (1.4.0)
-    turbolinks (5.0.0)
-      turbolinks-source (~> 5)
-    turbolinks-source (5.0.0)
+    turbolinks (2.5.3)
+      coffee-rails
     twitter-bootstrap-rails (3.2.2)
       actionpack (>= 3.1)
       execjs (>= 2.2.2, >= 2.2)
       less-rails (>= 2.5.0)
       railties (>= 3.1)
-    twitter_cldr (3.3.0)
+    twitter_cldr (3.5.0)
       camertron-eprun
       cldr-plurals-runtime-rb (~> 1.0.0)
-      json
       tzinfo
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -394,7 +391,7 @@ DEPENDENCIES
   spork (~> 1.0rc)
   spring
   spring-commands-rspec
-  turbolinks
+  turbolinks (= 2.5.3)
   twitter-bootstrap-rails
   twitter_cldr
   tzinfo
